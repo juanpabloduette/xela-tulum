@@ -5,4 +5,3 @@ Technologies:
 HTML
 CSS
 JAVASCRIPT
-PHP
