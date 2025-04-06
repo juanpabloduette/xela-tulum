@@ -947,7 +947,7 @@ header {
 	/* CARTAS */
 	.section11__images {
 		grid-template-columns: 1fr;
-		grid-template-rows: repeat(4, 1fr);
+		/* grid-template-rows: repeat(4, 1fr); */
 	}
 
 	.section11__images img {
@@ -967,7 +967,7 @@ header {
 	.section4__content__left,
 	.section44__content__right {
 		width: 100%;
-		min-height: 50%;
+		/* min-height: 50%; */
 	}
 
 	/* FORMULARIO*/
