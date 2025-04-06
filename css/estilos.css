@@ -531,8 +531,8 @@ header {
 	grid-template-rows: 1fr;
 	grid-column-gap: 5px;
 	grid-row-gap: 5px;
-
-	min-height: 100vh;
+	margin-bottom: 20px;
+	/* min-height: 100vh; */
 }
 
 .section11__images img {
@@ -889,7 +889,7 @@ header {
 	/* CARTAS */
 	.section11__images {
 		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: repeat(2, 1fr);
+		/* grid-template-rows: repeat(2, 1fr); */
 	}
 
 	.section11__images img {
@@ -936,6 +936,12 @@ header {
 }
 
 @media screen and (max-width: 462px) {
+	/* LOGOS */
+	.section11__logos img {
+		width: 100%;
+		margin: 40px 5px 25px 5px;
+	}
+
 	/* INSTAGRAM */
 
 	.section6__info__insta {
